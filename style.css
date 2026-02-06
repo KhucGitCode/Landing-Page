@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: rgb(134, 81, 112);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 10px;
+  background-color: palevioletred;
+  margin: 5px;
+}
+.logo img{
+  height: 60px;
+  width: 60px;
+  border: none;
+  border-radius: 50%;
+}
+.menu ul {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  color: white;
+  font-weight: 700;
+}
+.enrol button {
+
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(128, 27, 104);
+  padding: 10px 16px;
+  border: none;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    padding: 0;
+  }
+  .enrol button {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+.hero{
+    /* max-width: 98vw; */
+    padding: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+   align-items: center;
+    background-color: rgb(158, 8, 81);
+}
+.heading{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.hero p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero button{
+    padding: 15px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(154, 79, 136);
+    border-radius: 10px;
+}
+
+.features{
+   margin:10px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    width: fit-content;
+  
+    background-color: rgb(158, 8, 81); 
+}
+
+.box{
+    padding: 30px;
+    margin: 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    background-color: rgb(60, 46, 77);
+    
+}
+
+@media (max-width: 768px) {
+    .features{
+        flex-direction: column;
+    }
+}
+
+.prices{
+   margin:7px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width:98vw;
+     background-color: rgb(149, 63, 109); 
+}
+.plan{
+     padding: 30px;
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(60, 46, 77);
+}
+.desc ol{
+    list-style: none;
+}
+.rate{
+    color: rgb(26, 25, 28);
+    font-size: 25px;
+}
+#premium{
+    background-color: rgb(91, 28, 149);
+}
+.pay{
+ padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 300;
+    color: white;
+    background-color: rgb(55, 9, 104);
+    margin-top: 20px;
+    border-radius: 10px;   
+}
+.testimonial{
+     margin:7px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width:98vw;
+     background-color: rgb(137, 36, 90); padding: 40px;
+}
+.user-image img{
+    height: 170px;
+    width: 170px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.review{
+    padding: 40px;
+}
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-section button{
+    padding: 20px 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(31, 10, 26);
+    margin-bottom: 40px;
+    border-radius: 10px;   
+}

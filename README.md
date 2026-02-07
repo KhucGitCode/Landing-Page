@@ -3,13 +3,6 @@
 A fully responsive landing page built using **HTML and CSS**, designed to represent a real-world product/service.  
 This project focuses on clean layout structure, mobile-first design, and manual responsiveness without using any CSS framework.
 
----
-
-## 🚀 Live Demo
-👉 (Add your deployed link here – GitHub Pages / Vercel)
-
----
-
 ## 📌 Project Overview
 
 This landing page includes all essential sections commonly found in modern websites:
@@ -84,7 +77,6 @@ landing-page/
 - Add subtle animations and transitions
 - Convert to React components
 
----
 
 
 

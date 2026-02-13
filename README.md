@@ -3,7 +3,7 @@
 A fully responsive landing page built using **HTML and CSS**, designed to represent a real-world product/service.  
 This project focuses on clean layout structure, mobile-first design, and manual responsiveness without using any CSS framework.
 
-## 📌 Project Overview
+## Project Overview
 
 This landing page includes all essential sections commonly found in modern websites:
 - Hero section with a clear call-to-action
@@ -16,7 +16,7 @@ The project was built to practice **core frontend fundamentals** and responsive 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5**
 - **CSS3**
@@ -26,7 +26,7 @@ The project was built to practice **core frontend fundamentals** and responsive 
 
 ---
 
-## ✨ Features
+## Features
 
 - Fully responsive design (mobile, tablet, desktop)
 - Mobile-first layout approach
@@ -36,7 +36,7 @@ The project was built to practice **core frontend fundamentals** and responsive 
 
 ---
 
-## 📱 Responsiveness
+## Responsiveness
 
 The layout adapts smoothly across different screen sizes:
 - **Mobile:** Stacked layout for better readability
@@ -47,7 +47,7 @@ Media queries were written manually to handle responsiveness.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 landing-page/
 │
@@ -60,7 +60,7 @@ landing-page/
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 - Structuring a real-world landing page
 - Using Flexbox for linear layouts (navbar, hero)
@@ -70,14 +70,11 @@ landing-page/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add a hamburger menu for mobile navigation
 - Improve accessibility (ARIA labels)
 - Add subtle animations and transitions
 - Convert to React components
-
-
-
 
 
